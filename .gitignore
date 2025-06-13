@@ -1,3 +1,12 @@
 .tmp.driveupload
 # Removed this Files
 /target/
+*.class
+*.log
+*.iml
+.idea/
+*.DS_Store
+*.classpath
+*.project
+*.settings/
+
