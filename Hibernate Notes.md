@@ -8,6 +8,7 @@ Table of Content :
     - [How does Hibernate relate to JDBC?](#how-does-hibernate-relate-to-jdbc)
     - [What are the important benefits of using the Hibernate Framework?](#what-are-the-important-benefits-of-using-the-hibernate-framework)
     - [What are the advantages of Hibernate over JDBC?](#what-are-the-advantages-of-hibernate-over-jdbc)
+- [Domain Class | Entity Class | Data Class](#domain-class--entity-class--data-class)
 
 
 # Hibernate Notes
@@ -54,3 +55,12 @@ Table of Content :
 ---
 https://www.javaguides.net/2018/11/hibernate-hello-world-tutorial.html
 https://github.com/RameshMF/Hibernate-ORM-Tutorials/tree/master/hibernate-helloworld-example
+
+
+---
+# Domain Class | Entity Class | Data Class
+- @Entity  
+- @Table  
+- @Column  
+- @Id  
+- @GeneratedValue  

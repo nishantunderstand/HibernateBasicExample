@@ -1,4 +1,3 @@
-
 C:\Users\User\eclipse-workspace\Hibernate\Hibernate Notes.md
 C:\Users\User\eclipse-workspace\Hibernate\Images
 C:\Users\User\eclipse-workspace\Hibernate\LICENSE.md
