@@ -1,0 +1,10 @@
+https://hibernate.org/
+
+Tag : Everything data.
+
+
+---
+https://hibernate.org/orm/
+
+
+https://docs.jboss.org/hibernate/orm/6.6/introduction/html_single/Hibernate_Introduction.html
