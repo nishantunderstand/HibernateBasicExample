@@ -94,3 +94,7 @@ HibernateProject/
 
 ```
 
+
+If you want to use application.properties
+Then you need to switch to Spring Project
+

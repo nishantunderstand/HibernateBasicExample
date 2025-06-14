@@ -8,14 +8,16 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import com.hibernate.entity.Student;
-import com.hibernate.util.HibernateUtil;
+import com.hibernate.util.HibernateUtil_Class;
+import com.hibernate.util.HibernateUtil_XML;
 
 public class App {
     public static void main(String[] args) {
         System.out.println("=== Hibernate Working ===");
 
         // 1. Get SessionFactory from HibernateUtil
-        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+        SessionFactory sessionFactory1 = HibernateUtil_XML.getSessionFactory();
+        SessionFactory sessionFactory = HibernateUtil_Class.getSessionFactory();
 
         // 2. Create Student by Setter 
         // DO NOT set studentId manually

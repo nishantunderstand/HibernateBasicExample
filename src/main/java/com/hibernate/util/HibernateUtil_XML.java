@@ -6,7 +6,7 @@ import org.hibernate.cfg.Configuration;
  * Jun 14, 2025,3:41:03 PM
  * com.hibernate.config
  */
-public class HibernateUtil {
+public class HibernateUtil_XML {
 	private static SessionFactory sessionFactory;
 	private static SessionFactory sessionFactory1;
 
