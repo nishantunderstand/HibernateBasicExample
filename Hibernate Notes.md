@@ -64,3 +64,7 @@ https://github.com/RameshMF/Hibernate-ORM-Tutorials/tree/master/hibernate-hellow
 - @Column  
 - @Id  
 - @GeneratedValue  
+
+
+---
+![Project Directory Structure](Images/project-structure.PNG)
