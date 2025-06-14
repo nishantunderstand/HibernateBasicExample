@@ -68,3 +68,29 @@ https://github.com/RameshMF/Hibernate-ORM-Tutorials/tree/master/hibernate-hellow
 
 ---
 ![Project Directory Structure](Images/project-structure.PNG)
+
+---
+
+We shouldn't set studentId.
+	Should we set with 0
+	We should start with 1
+
+
+
+```css
+
+HibernateProject/
+│
+├── lib/                  ← All required JAR files here
+├── src/
+│   └── com/
+│       └── hibernate/
+│           ├── App.java
+│           ├── entity/
+│           │   └── Student.java
+│           └── util/
+│               └── HibernateUtil.java
+├── hibernate.cfg.xml     ← Config file in root
+
+```
+

@@ -1,47 +1,50 @@
 package com.hibernate.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Lob;
-import javax.persistence.Table;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
+import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "student")
 public class Student {
 
-	// 1. Primary Key is really important
+	// Primary Key is really important
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long studentId;
-	@Column(name = "student_name", length = 100, unique = true)
+	
+	//@Column(name = "student_name", length = 100, unique = true)
+	@Column(name = "student_name", length = 100)
 	private String name;
+	
 	@Column(name = "student_college", length = 200, nullable = true)
 	private String college;
+	
 	private String phone;
+	
 	private String fatherName;
+	
 	private boolean active = true;
+	
 	@Lob
 	private String about;
 
-	public Student() {
-		super();
-		// TODO Auto-generated constructor stub
+	public Student() {	
 	}
 
-	public Student(long studentId, String name, String college, String phone, String fatherName, boolean active,
-			String about) {
-		super();
-		this.studentId = studentId;
-		this.name = name;
-		this.college = college;
-		this.phone = phone;
-		this.fatherName = fatherName;
-		this.active = active;
-		this.about = about;
+	public Student(String name, String college, String phone, String fatherName, boolean active, String about) {
+	    this.name = name;
+	    this.college = college;
+	    this.phone = phone;
+	    this.fatherName = fatherName;
+	    this.active = active;
+	    this.about = about;
 	}
+
 
 	public long getStudentId() {
 		return studentId;
